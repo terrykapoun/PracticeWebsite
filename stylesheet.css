@@ -1,0 +1,155 @@
+.header{
+  background-color: blue;
+  text-align:center;
+  text-shadow: 2px 2px white;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.bodyContent{
+  background-color: #F2D0A4;
+}
+
+.navMenu{
+  width: 100%;
+  height: 20px;
+  background-color: blue
+
+}
+
+.navItem{
+  float: right;
+  width: 28%;
+  color: black;
+}
+
+
+
+.active{
+  color: white;
+}
+
+.mainContentPage1{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.itemContainerPage1{
+  display: flex;
+  flex-flow: row;
+
+  flex-wrap: wrap;
+  flex-basis: 60%;
+  float: left;
+  width: 60%
+}
+
+.mainItemPage1{
+  flex: 1 1 250px;
+  margin: 5px;
+  background-color: white;
+  float: left;
+  flex-flow: row;
+  min-height: 260px;
+  padding: 5px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.sideItemPage1{
+  flex: 1 1 100px;
+  margin: 5;
+  background-color: white;
+  text-align: center;
+  float: right;
+  padding: 5px;
+  font-family: 'Karla', sans-serif;
+
+}
+
+.sideContainerPage1{
+  flex-flow: column;
+  flex: wrap;
+  width: 40%;
+  float: right;
+  display: flex;
+
+}
+
+.footer{
+  width: 100%;
+  background-color: blue;
+  text-align: left;
+  clear: both;
+  margin-top: 20px;
+  font-family: 'Anton', sans-serif;
+}
+
+.mainContentPage2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.internalNavBar{
+  flex-flow: column;
+  flex: wrap;
+  width: 20%;
+  float: left;
+  display: flex;
+  padding-left: 20px
+}
+
+.internalNavItem{
+  flex: 0 0 30px;
+  border: 2px black;
+
+  float: left;
+}
+.sideContentPage2{
+  flex-flow: column;
+  flex-wrap: wrap;
+  float: right;
+  display: flex;
+  width: 70%;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.sideItemPage2{
+
+  flex: 1 1 100px;
+  margin: 10px;
+  background-color: white;
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  float: right;
+
+
+}
+
+.navMenu{
+  margin-bottom: 20px
+}
+.submitButton{
+  float: right;
+
+}
+
+.itemImage{
+  width: 100px;
+  height: 100px;
+  float: left;
+  position: static;
+  margin-right: 10px;
+}
+
+.imageHover{
+  transition: all .2 ease-in-out;
+}
+.imageHover:hover{
+  transform: scale(3);
+}
